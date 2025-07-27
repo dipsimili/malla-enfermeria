@@ -40,74 +40,13 @@ const materias = [
     ciclo: "1° Semestre",
     requisitos: [],
     abre: []
-  },
-  {
-    nombre: "Introducción al Cuidado Enfermero",
-    ciclo: "2° Semestre",
-    requisitos: [],
-    abre: ["Cuidado Enfermero al Adulto I"]
-  },
-  {
-    nombre: "Bioquímica",
-    ciclo: "2° Semestre",
-    requisitos: ["Introducción a la Química"],
-    abre: ["Fisiología Humana"]
-  },
-  {
-    nombre: "Microbiología",
-    ciclo: "2° Semestre",
-    requisitos: ["Introducción a la Biología"],
-    abre: []
-  },
-  {
-    nombre: "Parasitología",
-    ciclo: "2° Semestre",
-    requisitos: ["Introducción a la Biología"],
-    abre: []
-  },
-  {
-    nombre: "Lingüística, Comprensión y Redacción Académica",
-    ciclo: "2° Semestre",
-    requisitos: [],
-    abre: []
-  },
-  {
-    nombre: "Realidad Nacional",
-    ciclo: "2° Semestre",
-    requisitos: [],
-    abre: []
-  },
-  {
-    nombre: "Cuidado Humanizado",
-    ciclo: "2° Semestre",
-    requisitos: [],
-    abre: []
-  },
-  {
-    nombre: "Informática Básica para la Salud",
-    ciclo: "2° Semestre",
-    requisitos: [],
-    abre: []
-  },
-  {
-    nombre: "Fisiología Humana",
-    ciclo: "3° Semestre",
-    requisitos: ["Anatomía Humana", "Bioquímica"],
-    abre: ["Farmacología", "Semiología"]
-  },
-  {
-    nombre: "Farmacología",
-    ciclo: "4° Semestre",
-    requisitos: ["Fisiología Humana"],
-    abre: []
   }
-  // Continúa agregando el resto aquí...
+  // ← Puedes seguir agregando el resto de materias según tu lista.
 ];
 
 const estadoMaterias = {};
 const malla = document.getElementById("malla");
 
-// Agrupar por ciclos
 const ciclos = [...new Set(materias.map(m => m.ciclo))];
 const columnas = {};
 
