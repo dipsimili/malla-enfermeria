@@ -1,5 +1,3 @@
-// script.js COMPLETO
-
 const materias = [
   // PRIMER AÑO - I y II SEMESTRE
   { nombre: "Anatomía Humana", ciclo: "I Semestre", anio: "Primer Año", requisitos: [], abre: ["Fisiología Humana"] },
@@ -18,7 +16,7 @@ const materias = [
   { nombre: "Cuidado Humanizado", ciclo: "II Semestre", anio: "Primer Año", requisitos: [], abre: [] },
   { nombre: "Informática Básica para la Salud", ciclo: "II Semestre", anio: "Primer Año", requisitos: [], abre: [] },
 
-  // SEGUNDO AÑO - I y II SEMESTRE
+  // SEGUNDO AÑO
   { nombre: "Introducción a La Enfermería Comunitaria", ciclo: "I Semestre", anio: "Segundo Año", requisitos: [], abre: ["Enfermería en Salud Familiar y Comunitaria"] },
   { nombre: "Cuidado Enfermero en Salud Mental I", ciclo: "I Semestre", anio: "Segundo Año", requisitos: [], abre: ["Cuidado Enfermero en Salud Mental II"] },
   { nombre: "Fisiología Humana", ciclo: "I Semestre", anio: "Segundo Año", requisitos: ["Anatomía Humana", "Bioquímica"], abre: ["Farmacología", "Semiología"] },
@@ -35,7 +33,7 @@ const materias = [
   { nombre: "Cuidados Paliativos, Muerte Y Duelo (E)", ciclo: "II Semestre", anio: "Segundo Año", requisitos: [], abre: [] },
   { nombre: "Salud Y Seguridad En El Trabajo (E)", ciclo: "II Semestre", anio: "Segundo Año", requisitos: [], abre: [] },
 
-  // TERCER AÑO - I SEMESTRE
+  // TERCER AÑO
   { nombre: "Cuidado Enfermero Al Adulto II", ciclo: "I Semestre", anio: "Tercer Año", requisitos: ["Cuidado Enfermero al Adulto I"], abre: ["Cuidado Enfermero a la Mujer", "Gestión de Los Servicios de Salud"] },
   { nombre: "Cuidado Enfermero al Adulto Mayor", ciclo: "I Semestre", anio: "Tercer Año", requisitos: ["Cuidado Enfermero al Adulto I"], abre: [] },
   { nombre: "Nutrición", ciclo: "I Semestre", anio: "Tercer Año", requisitos: [], abre: [] },
@@ -44,8 +42,6 @@ const materias = [
   { nombre: "Comunicación Terapéutica (E)", ciclo: "I Semestre", anio: "Tercer Año", requisitos: [], abre: [] },
   { nombre: "Planificación Educativa En Salud (E)", ciclo: "I Semestre", anio: "Tercer Año", requisitos: [], abre: [] },
   { nombre: "Introducción a La Metodología de La Investigación Científica (E)", ciclo: "I Semestre", anio: "Tercer Año", requisitos: [], abre: [] },
-
-  // TERCER AÑO - II SEMESTRE
   { nombre: "Cuidado Enfermero a la Mujer", ciclo: "II Semestre", anio: "Tercer Año", requisitos: ["Cuidado Enfermero Al Adulto II"], abre: ["Cuidado Enfermero al Neonato, Niño y Adolescente I", "Crecimiento y Desarrollo e Inmunizaciones"] },
   { nombre: "Enfermería en Salud Familiar y Comunitaria", ciclo: "II Semestre", anio: "Tercer Año", requisitos: ["Introducción a La Enfermería Comunitaria"], abre: [] },
   { nombre: "Legislación en Salud", ciclo: "II Semestre", anio: "Tercer Año", requisitos: [], abre: [] },
@@ -66,7 +62,7 @@ const materias = [
   { nombre: "Emergencias y Desastres", ciclo: "II Semestre", anio: "Cuarto Año", requisitos: [], abre: [] },
   { nombre: "Trabajo de Investigación", ciclo: "II Semestre", anio: "Cuarto Año", requisitos: ["Investigación en Enfermería"], abre: [] },
   { nombre: "Estimulación Temprana (E)", ciclo: "II Semestre", anio: "Cuarto Año", requisitos: [], abre: [] },
-  { nombre: "Tecnología Aplicada al Cuidado Enfermero (E)", ciclo: "II Semestre", anio: "Cuarto Año", requisitos: [], abre: [] },
+  { nombre: "Tecnología Aplicada al Cuidado Enfernero (E)", ciclo: "II Semestre", anio: "Cuarto Año", requisitos: [], abre: [] },
 
   // QUINTO AÑO
   { nombre: "Internado I", ciclo: "I Semestre", anio: "Quinto Año", requisitos: [], abre: ["Internado II"] },
