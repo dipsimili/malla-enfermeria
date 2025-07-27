@@ -26,11 +26,13 @@ h1 {
   border-radius: 10px;
   padding: 10px;
   flex-shrink: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .semestre h2 {
   text-align: center;
   color: #663399;
+  margin-bottom: 10px;
 }
 
 .materia {
