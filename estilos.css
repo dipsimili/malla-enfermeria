@@ -1,35 +1,50 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f6f5fb;
+  background-color: #f4f3fa;
 }
 
 h1 {
   text-align: center;
   padding: 20px;
-  background-color: #d9c6f9;
+  background-color: #d5bdfc;
   color: #2c2c2c;
+  margin-bottom: 0;
 }
 
-.contenedor {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+.malla {
   padding: 20px;
+}
+
+.anio {
+  margin-bottom: 30px;
+}
+
+.anio h2 {
+  background-color: #e8d6fc;
+  padding: 10px;
+  border-radius: 10px;
+  color: #4b2c79;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.semestres {
+  display: flex;
   gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .semestre {
-  min-width: 250px;
   background-color: #f0e6ff;
   border-radius: 10px;
   padding: 10px;
-  flex-shrink: 0;
+  width: 250px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.semestre h2 {
+.semestre h3 {
   text-align: center;
   color: #663399;
   margin-bottom: 10px;
